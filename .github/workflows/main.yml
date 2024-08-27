@@ -34,7 +34,7 @@ jobs:
           yarn
           yarn build
           mkdir ${{ env.PLUGIN_NAME }}
-          cp README.md package.json icon.png ${{ env.PLUGIN_NAME }}
+          cp README.md package.json logo.png *.gif ${{ env.PLUGIN_NAME }}
           mv dist ${{ env.PLUGIN_NAME }}
           zip -r ${{ env.PLUGIN_NAME }}.zip ${{ env.PLUGIN_NAME }}
           ls
@@ -62,4 +62,3 @@ jobs:
           asset_path: ./${{ env.PLUGIN_NAME }}.zip
           asset_name: ${{ env.PLUGIN_NAME }}-${{ steps.build.outputs.tag_name }}.zip
           asset_content_type: application/zip
-          
