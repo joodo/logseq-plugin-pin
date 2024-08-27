@@ -1,7 +1,7 @@
 {
   "name": "logseq-plugin-pin",
   "version": "0.0.1",
-  "description": "Add \"Copy pin\" option to pdf and editer blocks.",
+  "description": "Add \"Paste as pin\" shortcut to pdf and editer blocks.",
   "repository": "https://github.com/joodo/logseq-plugin-pin",
   "author": "lianghanzhong <wyattliang@gmail.com>",
   "license": "MIT",
