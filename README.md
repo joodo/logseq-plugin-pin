@@ -1,6 +1,6 @@
 # Block Pin
 
-Add "Paste as pin" shortcut to pdf and editer blocks.
+Add "Paste as pin" shortcut for pdf and editor blocks.
 
 ## Showcase
 
