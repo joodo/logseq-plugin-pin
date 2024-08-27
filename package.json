@@ -1,0 +1,21 @@
+{
+  "name": "logseq-plugin-pin",
+  "version": "0.0.1",
+  "description": "Add \"Copy pin\" option to pdf and editer blocks.",
+  "repository": "https://github.com/joodo/logseq-plugin-pin",
+  "author": "lianghanzhong <wyattliang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.17",
+    "parcel": "^2.12.0"
+  },
+  "logseq": {
+    "main": "dist/index.html",
+    "icon": "./logo.png",
+    "id": "block-pin"
+  }
+}
